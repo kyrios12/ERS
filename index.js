@@ -4,8 +4,10 @@ const app = express();
 
 const db = require('./config/mongoose');
 const expressLayout = require('express-ejs-layouts');
-
-
+const passport = require('passport');
+const passportLocal = require('./config/passport-local');
+const flash = require('connect-flash'); 
+const flashMiddleWare = require('./config/flashMiddleware');
 
 
 
