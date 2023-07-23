@@ -3,6 +3,7 @@ const port = 8000; // assigning port
 const app = express(); 
 
 const db = require('./config/mongoose');
+const expressLayout = require('express-ejs-layouts');
 
 
 
@@ -13,11 +14,13 @@ const db = require('./config/mongoose');
 
 
 
+
+app.set('view engine','ejs');
+app.set('views','./views');
+
+app.use(expressLayout);
 
 app.use('/' , require('./routes/index'));
-
-
-
 
 app.listen(port, function(err){
     if(err){
