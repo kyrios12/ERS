@@ -19,7 +19,8 @@ app.set('view engine','ejs');
 app.set('views','./views');
 
 app.use(expressLayout);
-
+app.use(flash());
+app.use(flashMiddleWare.setFlash);
 app.use('/' , require('./routes/index'));
 
 app.listen(port, function(err){
