@@ -10,12 +10,12 @@
     <title> <%= title%> </title>
 </head>
 <body style="background-color: rgba(151, 232, 131, 0.945);">
-    <%- include('_header')%>
+    <%- include('./partials/_header')%>
 
 
     <%-body%>
 
-    <%- include('_footer')%>
+    <%- include('./partials/_footer')%>
     <!-- It is for displying the messages, in the pages -->
     <script>
         <% if (flash.success && flash.success.length > 0)  { %>
