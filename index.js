@@ -14,8 +14,8 @@ const expressLayout = require('express-ejs-layouts');
 
 
 
-
 app.set('view engine','ejs');
+
 app.set('views','./views');
 
 app.use(expressLayout);
