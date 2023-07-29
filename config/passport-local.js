@@ -1,4 +1,3 @@
-//To create secure authentication for sign in and sign up using passport js local strategy
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 

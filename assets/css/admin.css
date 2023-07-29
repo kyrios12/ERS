@@ -2,11 +2,9 @@
 .heading{
     display: flex;
     justify-content: center;
-    /* align-items: center;
-    align-content: center; */
     color:black;
     font-size:1.5rem;
-    text-decoration:underline 2px darkgreen;
+    text-decoration: 2px rgb(132, 95, 20);
     font-weight:bold;
    
 }
@@ -21,12 +19,12 @@
     display: flex;
     justify-content: center;
 }
-/* Container for assigning reviwer and reviewing */
+/* Container for assigning reviewer and reviewing */
 .reviewContainer{
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    border: 2px solid darkgreen;
+    border: 2px solid black;
     flex-direction: column;
     width: 40%;
     margin-left: 30%;
@@ -47,15 +45,15 @@
 }
 /* Submit buttons  */
 .submitButtons button{
-    background-color:#FFFF8F;
+    background-color:white;
     width: 10vw;
     height: 25px;
-    border: 1px solid darkgreen;
+    border: 1px solid black;
     border-radius: 20px;
 
 }
 .submitButtons button:hover{
-    background-color:yellow ;
+    background-color:orangered ;
 }
 /* This button is used in assigning admin,  */
 .submitButtons2{
@@ -63,8 +61,8 @@
 }
 
 .btn{
-    background-color: yellow;
+    background-color:white;
 }
 #addemp{
-    background-color: lightyellow;
+    background-color: white;
 }

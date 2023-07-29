@@ -1,21 +1,14 @@
-/* The below css is for header of the page, the header of the page is going to remain constant, only
- the body is going to chagne.
-  */
-
-  /* Styling for navBar, I have made nav Bar as flex, and all the element inside this navBar is going to 
-  in row wise */
   .navBar{
-    background-color:#188b6b;
+    background-color:#101820;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-/* These styling are for anchor tag in navBar */
 .nameOfApp a{
     font-size: 45px;
     text-decoration: none;
     margin-left:-15px;
-    color:yellow;
+    color:white;
     letter-spacing:4px;
     font-weight: 600;
     text-shadow: -1px 1px 0 #41ba45,
@@ -58,12 +51,12 @@
    
 }
 
-/* Thesse styling are for logOut, button which is present on the navBar */
+/* These styling are for logOut, button which is present on the navBar */
 .logOut a{
     font-size: 30px;
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .noUser ul{
@@ -84,14 +77,18 @@
     text-decoration: none;
     color: white;
 }
+.noUser li a::hover{
+    color:rgb(228, 101, 9)
+}
+
 .logOut small{
     font-size: 15px;
     color:white;
-    text-decoration:underline 1px yellow ;
+    text-decoration:1px rgb(30, 30, 21) ;
     padding:5px;
 }
 .logOut small:hover{
    
-    color:yellow;
+    color:rgb(228, 101, 9);
     
 }
